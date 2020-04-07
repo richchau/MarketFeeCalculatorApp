@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1576E863243A9B6A0049CC8F /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576E862243A9B6A0049CC8F /* CurrencyField.swift */; };
+		1576E867243BF9400049CC8F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576E866243BF9400049CC8F /* CardView.swift */; };
 		15F4C59524356912005C9707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C59424356912005C9707 /* AppDelegate.swift */; };
 		15F4C59724356912005C9707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C59624356912005C9707 /* SceneDelegate.swift */; };
-		15F4C59924356912005C9707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C59824356912005C9707 /* ViewController.swift */; };
 		15F4C59C24356912005C9707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F4C59A24356912005C9707 /* Main.storyboard */; };
 		15F4C59E24356913005C9707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F4C59D24356913005C9707 /* Assets.xcassets */; };
 		15F4C5A124356913005C9707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F4C59F24356913005C9707 /* LaunchScreen.storyboard */; };
+		15F4C5A924356A9C005C9707 /* MarketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C5A824356A9C005C9707 /* MarketsViewController.swift */; };
+		15F4C5AB24356ABE005C9707 /* MarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C5AA24356ABE005C9707 /* MarketCell.swift */; };
+		15F4C5AD24366520005C9707 /* Markets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F4C5AC24366520005C9707 /* Markets.plist */; };
+		15F4C5AF2437F427005C9707 /* GoatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F4C5AE2437F427005C9707 /* GoatView.xib */; };
+		15F4C5B12437F439005C9707 /* GoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C5B02437F439005C9707 /* GoatView.swift */; };
+		15F4C5B524384DDD005C9707 /* GoatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C5B424384DDD005C9707 /* GoatViewController.swift */; };
+		B9D419CD5EB78FF2AC6AB1DD /* Pods_MarketFeeCalculatorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5CB3E19EF51A8EAE229808 /* Pods_MarketFeeCalculatorApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1576E862243A9B6A0049CC8F /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
+		1576E866243BF9400049CC8F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		15F4C59124356912005C9707 /* MarketFeeCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketFeeCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F4C59424356912005C9707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15F4C59624356912005C9707 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15F4C59824356912005C9707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15F4C59B24356912005C9707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15F4C59D24356913005C9707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15F4C5A024356913005C9707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15F4C5A224356913005C9707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F4C5A824356A9C005C9707 /* MarketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewController.swift; sourceTree = "<group>"; };
+		15F4C5AA24356ABE005C9707 /* MarketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCell.swift; sourceTree = "<group>"; };
+		15F4C5AC24366520005C9707 /* Markets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Markets.plist; sourceTree = "<group>"; };
+		15F4C5AE2437F427005C9707 /* GoatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoatView.xib; sourceTree = "<group>"; };
+		15F4C5B02437F439005C9707 /* GoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoatView.swift; sourceTree = "<group>"; };
+		15F4C5B424384DDD005C9707 /* GoatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoatViewController.swift; sourceTree = "<group>"; };
+		3543CBB34A14511F229ED719 /* Pods-MarketFeeCalculatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketFeeCalculatorApp.debug.xcconfig"; path = "Target Support Files/Pods-MarketFeeCalculatorApp/Pods-MarketFeeCalculatorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FE5F5165CDF8721690DF86 /* Pods-MarketFeeCalculatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketFeeCalculatorApp.release.xcconfig"; path = "Target Support Files/Pods-MarketFeeCalculatorApp/Pods-MarketFeeCalculatorApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE5CB3E19EF51A8EAE229808 /* Pods_MarketFeeCalculatorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketFeeCalculatorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D419CD5EB78FF2AC6AB1DD /* Pods_MarketFeeCalculatorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				15F4C59324356912005C9707 /* MarketFeeCalculatorApp */,
 				15F4C59224356912005C9707 /* Products */,
+				92632FA505F943CE4BF28F58 /* Pods */,
+				342FAC0619344759BD25DC68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,47 @@
 		15F4C59324356912005C9707 /* MarketFeeCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				15F4C5B324381033005C9707 /* View */,
 				15F4C59424356912005C9707 /* AppDelegate.swift */,
 				15F4C59624356912005C9707 /* SceneDelegate.swift */,
-				15F4C59824356912005C9707 /* ViewController.swift */,
+				15F4C5A824356A9C005C9707 /* MarketsViewController.swift */,
+				15F4C5AA24356ABE005C9707 /* MarketCell.swift */,
+				15F4C5B424384DDD005C9707 /* GoatViewController.swift */,
+				1576E862243A9B6A0049CC8F /* CurrencyField.swift */,
 				15F4C59A24356912005C9707 /* Main.storyboard */,
 				15F4C59D24356913005C9707 /* Assets.xcassets */,
 				15F4C59F24356913005C9707 /* LaunchScreen.storyboard */,
 				15F4C5A224356913005C9707 /* Info.plist */,
+				15F4C5AC24366520005C9707 /* Markets.plist */,
+				1576E866243BF9400049CC8F /* CardView.swift */,
 			);
 			path = MarketFeeCalculatorApp;
+			sourceTree = "<group>";
+		};
+		15F4C5B324381033005C9707 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15F4C5AE2437F427005C9707 /* GoatView.xib */,
+				15F4C5B02437F439005C9707 /* GoatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		342FAC0619344759BD25DC68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5CB3E19EF51A8EAE229808 /* Pods_MarketFeeCalculatorApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92632FA505F943CE4BF28F58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3543CBB34A14511F229ED719 /* Pods-MarketFeeCalculatorApp.debug.xcconfig */,
+				D4FE5F5165CDF8721690DF86 /* Pods-MarketFeeCalculatorApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15F4C5A524356913005C9707 /* Build configuration list for PBXNativeTarget "MarketFeeCalculatorApp" */;
 			buildPhases = (
+				6F2FEEC9369C8AE4970047F9 /* [CP] Check Pods Manifest.lock */,
 				15F4C58D24356912005C9707 /* Sources */,
 				15F4C58E24356912005C9707 /* Frameworks */,
 				15F4C58F24356912005C9707 /* Resources */,
+				8C6F0BB997469EC4C04FD8FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +181,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F4C5A124356913005C9707 /* LaunchScreen.storyboard in Resources */,
+				15F4C5AF2437F427005C9707 /* GoatView.xib in Resources */,
 				15F4C59E24356913005C9707 /* Assets.xcassets in Resources */,
+				15F4C5AD24366520005C9707 /* Markets.plist in Resources */,
 				15F4C59C24356912005C9707 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F2FEEC9369C8AE4970047F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketFeeCalculatorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6F0BB997469EC4C04FD8FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketFeeCalculatorApp/Pods-MarketFeeCalculatorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketFeeCalculatorApp/Pods-MarketFeeCalculatorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarketFeeCalculatorApp/Pods-MarketFeeCalculatorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15F4C58D24356912005C9707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F4C59924356912005C9707 /* ViewController.swift in Sources */,
 				15F4C59524356912005C9707 /* AppDelegate.swift in Sources */,
+				1576E863243A9B6A0049CC8F /* CurrencyField.swift in Sources */,
+				15F4C5B524384DDD005C9707 /* GoatViewController.swift in Sources */,
+				15F4C5A924356A9C005C9707 /* MarketsViewController.swift in Sources */,
+				15F4C5B12437F439005C9707 /* GoatView.swift in Sources */,
 				15F4C59724356912005C9707 /* SceneDelegate.swift in Sources */,
+				1576E867243BF9400049CC8F /* CardView.swift in Sources */,
+				15F4C5AB24356ABE005C9707 /* MarketCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		15F4C5A624356913005C9707 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3543CBB34A14511F229ED719 /* Pods-MarketFeeCalculatorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +404,7 @@
 		};
 		15F4C5A724356913005C9707 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FE5F5165CDF8721690DF86 /* Pods-MarketFeeCalculatorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

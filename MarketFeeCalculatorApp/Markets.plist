@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Amazon</string>
+		<key>Image</key>
+		<string>amazonLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Depop</string>
+		<key>Image</key>
+		<string>depopLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ebay</string>
+		<key>Image</key>
+		<string>ebayLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Goat</string>
+		<key>Image</key>
+		<string>goatLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grailed</string>
+		<key>Image</key>
+		<string>grailedLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>OfferUp</string>
+		<key>Image</key>
+		<string>offerupLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mercari</string>
+		<key>Image</key>
+		<string>mercariLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Poshmark</string>
+		<key>Image</key>
+		<string>poshmarkLogo</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>StockX</string>
+		<key>Image</key>
+		<string>stockxLogo</string>
+	</dict>
+</array>
+</plist>
