@@ -25,7 +25,6 @@ class GoatViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     @IBOutlet weak var returnLabel: UILabel!
     
     @IBOutlet weak var profitsView: UIView!
-    @IBOutlet weak var returnsView: UIView!
     @IBOutlet weak var feesView: UIView!
     @IBOutlet weak var inputsView: UIView!
     
@@ -46,7 +45,6 @@ class GoatViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         super.viewDidLoad()
         
         cardViewConfigure(view: profitsView)
-        cardViewConfigure(view: returnsView)
         cardViewConfigure(view: feesView)
         cardViewConfigure(view: inputsView)
         
